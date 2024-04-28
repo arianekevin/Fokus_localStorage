@@ -60,7 +60,7 @@ function criarElementoTarefa(tarefa) {
         atualizarTarefas();
     }
     const imagemBotao = document.createElement('img');
-    imagemBotao.setAttribute('src', '/imagens/edit.png');
+    imagemBotao.setAttribute('src', './imagens/edit.png');
     botao.append(imagemBotao);
     botao.classList.add('app_button-edit');
 
